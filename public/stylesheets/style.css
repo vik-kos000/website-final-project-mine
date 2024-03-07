@@ -1,0 +1,68 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.ui-page {
+    background-color: #bde5f6 !important; 
+}
+
+.ui-content {
+    background: none !important;
+}
+
+.container {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 50px; 
+}
+
+[data-role="footer"] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px; 
+    font-size: 18px;
+}
+
+[data-role="header"] {
+    font-size: 22px;
+}
+
+[data-role="navbar"] {
+    font-size: 20px;
+}
+
+#card-body {
+    text-align: center;
+}
+
+img {
+    width: 900px;
+}
+
+[data-role="content"] {
+    font-size: 18px; 
+}
+
+[data-role="listview"] li {
+    margin-bottom: 20px; 
+}
+
+#listButtonContainer {
+    position: fixed;
+    bottom: 60px; /* Adjust this value to ensure the button is above the footer */
+    width: 98%;
+    text-align: center;
+    z-index: 999; /* Ensure the button appears above other elements */
+}
+
+#listButton {
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+#deleteButton{
+    width: 25%;
+}
